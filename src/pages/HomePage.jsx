@@ -1,16 +1,16 @@
 import { MenuButton } from '../components/MenuButton'
 
 const sections = [
-  { title: 'Fatigue', to: '/fatigue', icon: '😴' },
-  { title: 'Sleep', to: '/sleep', icon: '🛌' },
-  { title: 'Mood', to: '/mood', icon: '😊' },
-  { title: 'Skin', to: '/skin', icon: '👨‍🦰' },
-  { title: 'Head Pain', to: '/headaches', icon: '🤕' },
-  { title: 'Body Pain', to: '/body-pain', icon: '💪' },
-  { title: 'Male Hormones', to: '/male-hormones', icon: '⚡' },
-  { title: 'Female Hormones', to: '/female-hormones', icon: '🌸' },
-  { title: 'Digestion', to: '/digestion', icon: '🍽️' },
-  { title: 'Immune', to: '/immune', icon: '🛡️' }
+  { title: 'Fatigue', to: '/fatigue', iconSrc: '/icons/fatigue-icon.png' },
+  { title: 'Sleep', to: '/sleep', iconSrc: '/icons/sleep-icon.png' },
+  { title: 'Mood', to: '/mood', iconSrc: '/icons/mood-icon.png' },
+  { title: 'Skin', to: '/skin', iconSrc: '/icons/skin-icon.png' },
+  { title: 'Head Pain', to: '/headaches', iconSrc: '/icons/head-pain-icon.svg' },
+  { title: 'Body Pain', to: '/body-pain', iconSrc: '/icons/body-pain-icon.png' },
+  { title: 'Male Hormones', to: '/male-hormones', iconSrc: '/icons/male-hormones-icon.png' },
+  { title: 'Female Hormones', to: '/female-hormones', iconSrc: '/icons/female-hormones-icon.png' },
+  { title: 'Digestion', to: '/digestion', iconSrc: '/icons/digestion-icon.png' },
+  { title: 'Immune', to: '/immune', iconSrc: '/icons/immune-icon.png' }
 ]
 
 export default function HomePage() {
@@ -27,7 +27,7 @@ export default function HomePage() {
             key={section.to}
             title={section.title}
             to={section.to}
-            icon={section.icon}
+            iconSrc={section.iconSrc}
           />
         ))}
       </div>

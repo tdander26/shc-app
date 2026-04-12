@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Head silhouette -->
+  <path d="M55 15c-18 0-28 14-28 28 0 8 3 14 8 18l2 4v10h20v-10l2-3c6-4 10-12 10-19 0-16-6-28-14-28z"/>
+  <!-- Lightning bolts for pain -->
+  <path d="M62 25l-5 10h6l-5 10" stroke-width="3"/>
+  <path d="M72 35l-4 8h5l-4 8" stroke-width="2.5"/>
+  <!-- Neck -->
+  <path d="M37 75v12h20v-12"/>
+</svg>
