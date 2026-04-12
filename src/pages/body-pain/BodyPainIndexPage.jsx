@@ -89,6 +89,7 @@ function CarpalTunnelPage() {
           title="Supplements"
           content="Potential supplements include, but are not limited to, those supporting joint repair and reducing inflammation."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -115,6 +116,7 @@ function GoutPage() {
           title="Supplements"
           content="Wild cherry juice, 5-MTHF, EFAs, and various antioxidants"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -141,6 +143,7 @@ function SciaticaPage() {
           title="Supplements"
           content="Nutritional support for nerve health and inflammation management."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -167,6 +170,7 @@ function TendonitisPage() {
           title="Supplements"
           content="Your adrenal glands, pancreas, and liver are the three major organs involved in tendonitis problems. The adrenal glands are your hormonal glands that deal with stress. They will secrete excess cortisol when there is too much dietary, physical, or emotional stress. Over time, the beneficial hormone DHEA, also made in the adrenal glands, will become depleted with persistent chronic stress, resulting in low sex hormone levels such as testosterone and estrogen, as those are made from DHEA. This constant cortisol burden will tax the liver, which must detoxify the hormone, and much of this is done via a process known as sulfation. When your body uses up sulfur, it has less available to heal injured tendons as well as your cartilage (joints) where they attach to. So chronic stress leads to chronic cortisol leads to chronic inflammation and the inability to heal. The increased cortisol also plays off the pancreas, creating a constant tug-of-war between the two organs (the pancreas and the adrenals) as they try to keep blood sugar levels from swinging out of control all day long as you work, exercise, and sleep. This, as discussed here, will create insulin and carbohydrate sensitivities, and in turn create even more inflammation."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -193,6 +197,7 @@ function JointRepairPage() {
           title="Supplements"
           content="Collagen, glucosamine, minerals, and omega-3 fatty acids support joint repair (GAG)."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>

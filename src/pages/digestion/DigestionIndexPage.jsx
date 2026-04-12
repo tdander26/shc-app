@@ -52,6 +52,7 @@ function HCLPage() {
           title="Supplements"
           content="EPA, DHA, palmitic acid, stearic acid, vitamin D, Betaine HCl, and many others listed in the supplementation resources."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>

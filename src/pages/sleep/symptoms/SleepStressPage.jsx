@@ -33,6 +33,7 @@ export default function SleepStressPage() {
           title="Supplements"
           content={supplements}
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 

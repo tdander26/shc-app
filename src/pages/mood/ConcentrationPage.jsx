@@ -32,6 +32,7 @@ export default function ConcentrationPage() {
           title="Supplements"
           type="supplements"
           content="Cat G, Wheat Germ Oil, Mn, B12"
+          link="https://www.dssorders.com/drtodd"
         />
 
         <div className="space-y-2 mt-6">

@@ -132,6 +132,7 @@ function BreastTendernessPage() {
           title="Supplements"
           content="Iodine (if not consuming fish, kelp, or iodized salt), P5P, 5MTHF, B12, CYS, Artichoke."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <MenuButton title="Liver Detoxification" to="/liver-view" />
@@ -159,6 +160,7 @@ function CrampingPage() {
           title="Supplements"
           content="Vitamin E. Plus nutrients dependent upon inflammation or calcium above."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -189,6 +191,7 @@ function OverEmotionalPage() {
           title="Supplements"
           content="Depending on above sugar handling or thyroid issues, but also consider symptomatic improvement of mood issues with certain nutrients you can find in the Mood & Emotional section."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -220,6 +223,7 @@ function HotFlashPage() {
           title="Supplements"
           content="Nutrients that may help include Organically Bound Minerals, Vitamin E, Vitamin B6, Vitamin B9, Vitamin B12, Cysteine, Artichoke."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <MenuButton title="Liver Detoxification" to="/liver-view" />
@@ -247,6 +251,7 @@ function HormoneAcnePage() {
           title="Supplements"
           content="Nutrients that may help include Iodine (if not consuming fish, kelp, or iodized salt), Vitamin B6, Vitamin B9, Vitamin B12, Cysteine, Artichoke."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <MenuButton title="Liver Detoxification" to="/liver-view" />
@@ -274,6 +279,7 @@ function FatigueFemalePage() {
           title="Supplements"
           content="Nutrients that may help include RBCs: Iron, Vitamin B12, Vitamin B9, Vitamin B6. If no change after 2 cycles consider copper and molybdenum."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -322,6 +328,7 @@ function LongCyclePage() {
           title="Supplements"
           content="Min Tran, Vitamin E, Tulsi, Ashwagandha, Cat B"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <MenuButton title="Sympathetic" to="/sympathetic-view" />
@@ -349,6 +356,7 @@ function ShortCyclePage() {
           title="Supplements"
           content="Vitamin E, Fish Oil, Zinc, Vitamin A"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <MenuButton title="Sympathetic" to="/sympathetic-view" />
@@ -376,6 +384,7 @@ function SpottingPage() {
           title="Supplements"
           content="5MTHF, P5P, Methyl B12, CYS, Artichoke"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -402,6 +411,7 @@ function NoCyclePage() {
           title="Supplements"
           content="Pituitary PMG, Ovex P, Ashwagandha, Tulsi, Iodine, Cat E"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <MenuButton title="Fertility Section" to="/female-hormones/fertility" />
@@ -429,6 +439,7 @@ function DecreasedLibidoFemale() {
           title="Supplements"
           content="Vitamin E, Zinc, Arginex"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -475,6 +486,7 @@ function TroubleGettingPage() {
           title="Supplements"
           content="Nutrients that may help include Pituitary PMG, Ovex P, Ashwagandha, Tulsi, Iodine, Vitamin E."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -505,6 +517,7 @@ function TroubleSustainPage() {
           title="Supplements"
           content="Mn, Zn, P5P, Passion Flower, Valerian Root. Also, for faster relief Taurine, L-Theanine, and GABA"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -535,6 +548,7 @@ function MorningSicknessPage() {
           title="Supplements"
           content="Mn, Zn, P5P, Passion Flower, Valerian Root. Also, for faster relief Taurine, L-Theanine, and GABA"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -565,6 +579,7 @@ function PostpartumPage() {
           title="Supplements"
           content="Mn, Zn, P5P, Passion Flower, Valerian Root. Also, for faster relief Taurine, L-Theanine, and GABA"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -614,6 +629,7 @@ function NightSweatsPage() {
           title="Supplements"
           content="Vitamin E, B vitamins, Artichoke Extract"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -640,6 +656,7 @@ function DryTissuesPage() {
           title="Supplements"
           content="Vitamin E, Zinc, Fish Oil"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -670,6 +687,7 @@ function HRTPage() {
           title="Supplements"
           content="Mn, Zn, P5P, Passion Flower, Valerian Root. Also, for faster relief Taurine, L-Theanine, and GABA"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">
@@ -700,6 +718,7 @@ function BirthControlPage() {
           title="Supplements"
           content="Mn, Zn, P5P, Passion Flower, Valerian Root. Also, for faster relief Taurine, L-Theanine, and GABA"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
       <div className="space-y-3">

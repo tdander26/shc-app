@@ -76,6 +76,7 @@ function DecreasedLibidoPage() {
           title="Supplements"
           content="Nutrients that may help include Vitamin E, Zinc, Arginex."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 
@@ -149,6 +150,7 @@ function HairLossPage() {
           title="Supplements"
           content="Biotin, Zinc, Saw Palmetto, Rosemary, Cysteine (NAC)."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 
@@ -188,6 +190,7 @@ function MuscleLossPage() {
           title="Supplements"
           content="Protein! Try to consume at least 1 gram of protein per kilogram of bodyweight. High quality protein includes animal products (dairy and meats), eggs, and whey, egg, or collagen protein supplements. Nutrients to help improve testosterone levels are discussed in that specific section."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 
@@ -258,6 +261,7 @@ function NitricOxidePage() {
           title="Supplements"
           content="To improve nitric oxide levels try: ARG/ORT/CIT aminos, arginex, 5MTHF, Cat G, niacinamide, P5P"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 
@@ -296,6 +300,7 @@ function TestosteroneEnhancementPage() {
           title="Supplements"
           content="To reduce testosterone breakdown into DHT and estrogen: Zinc, Saw Palmetto, Rosemary, Cysteine/NAC, 5MTHF, MethylB12, P5P. To help make testosterone: Selenium, Zinc, Vitamin A and E, Saturated Fats, Protein"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 

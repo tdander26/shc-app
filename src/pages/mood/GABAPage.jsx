@@ -32,6 +32,7 @@ export default function GABAPage() {
           title="Supplements"
           type="supplements"
           content="Mn, Zn, P5P, Passion Flower, Valerian Root. Also, for faster relief Taurine, L-Theanine, and GABA"
+          link="https://www.dssorders.com/drtodd"
         />
 
         <div className="space-y-2 mt-6">

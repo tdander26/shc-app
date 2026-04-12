@@ -3,6 +3,28 @@ import { SectionHeader } from '../components/SectionHeader'
 import { ContentBlock } from '../components/ContentBlock'
 import { BackButton } from '../components/BackButton'
 
+// Helper function to get supplement link based on page ID
+const getSupplementLink = (pageId) => {
+  const nsaidProductLinks = {
+    omega3: 'https://drgangemi.standardprocess.com/products/tuna-omega-3-oil',
+    zinc: 'https://drgangemi.standardprocess.com/products/zinc-chelate',
+    magnesium: 'https://drgangemi.standardprocess.com/products/magnesium-lactate'
+  }
+
+  const insulinResistanceLinks = {
+    magnesium: 'https://drgangemi.standardprocess.com/products/magnesium-lactate',
+    garlic: 'https://drgangemi.standardprocess.com/products/garlic-forte'
+  }
+
+  if (pageId === 'nsaid') {
+    return nsaidProductLinks
+  } else if (pageId === 'insulin-resistance') {
+    return insulinResistanceLinks
+  }
+
+  return 'https://www.dssorders.com/drtodd'
+}
+
 const landingPageContent = {
   'allergy': {
     title: 'Allergies',
@@ -188,6 +210,7 @@ export default function LandingPage() {
             title="Supplements"
             content={page.supplements}
             type="supplements"
+            link={getSupplementLink(pageId)}
           />
         )}
       </div>

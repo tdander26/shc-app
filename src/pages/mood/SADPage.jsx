@@ -31,6 +31,7 @@ export default function SADPage() {
           title="Supplements"
           type="supplements"
           content="Vitamin D, EPA."
+          link="https://www.dssorders.com/drtodd"
         />
 
         <button

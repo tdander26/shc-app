@@ -28,6 +28,7 @@ export default function ImmuneIndexPage() {
           title="Nutritional Support"
           content="Key nutrients for immune support include: Vitamin C, Vitamin D, Zinc, Selenium, Iron, B vitamins, Vitamin A, and various antioxidants. Adequate protein intake is also critical for antibody production."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
 

@@ -45,6 +45,7 @@ function PostInjuryPage() {
           title="Supplements"
           content="Nutrients that may help include Artichoke Extract, Mg, Zn, or B6."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -71,6 +72,7 @@ function MigrainesPage() {
           title="Supplements"
           content="Nutrients such as vitamin B6, folate, B12, mg, and zinc can help with estrogen detoxification. Even in post-menopausal women, migraines can be due to a hormonal imbalance and your body not properly detoxifying the naturally lower levels of estrogen, testosterone, and progesterone."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -97,6 +99,7 @@ function TensionPage() {
           title="Supplements"
           content="Nutrients that may help include Artichoke Extract, Mg, Zn, or B6."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -123,6 +126,7 @@ function SinusPage() {
           title="Supplements"
           content="Nutrients that may help include Artichoke Extract, Mg, Zn, or B6."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -167,6 +171,7 @@ function TMJPage() {
           title="Supplements"
           content="Minerals and magnesium for muscle relaxation."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -193,6 +198,7 @@ function BruxismPage() {
           title="Supplements"
           content="GABA, magnesium, and other relaxation-supporting nutrients."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -219,6 +225,7 @@ function ToothDecayPage() {
           title="Supplements"
           content="Nutrients that may help include Trace Minerals."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -245,6 +252,7 @@ function TartarPage() {
           title="Supplements"
           content="Nutrients that may help include Phosfood Liquid or Trace Minerals"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -271,6 +279,7 @@ function RootCanalPage() {
           title="Supplements"
           content="Herbs that may help (uva ursi - others we can get)"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -297,6 +306,7 @@ function BleedingGumsPage() {
           title="Supplements"
           content="Cyruta Plus, Cat C"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>

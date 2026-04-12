@@ -50,6 +50,7 @@ function AcnePage() {
           title="Supplements"
           content="Vitamin B12 (methylcobalamin), folate (5MTHF) , vitamin B6 (pyridoxal 5' phosphate), magnesium, and zinc are the most common nutrients necessary to achieve this."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -76,6 +77,7 @@ function ItchySkinPage() {
           title="Supplements"
           content="Nutrients that may help include Vitamin A."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -102,6 +104,7 @@ function PsoriasisPage() {
           title="Supplements"
           content="Nutrients that may help include Artichoke Extract, Mg, Zn, or B6."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -128,6 +131,7 @@ function HivesPage() {
           title="Supplements"
           content="Cataplex G, Immune Nutrients, and SYM Nutrients"
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -154,6 +158,7 @@ function WartsPage() {
           title="Supplements"
           content="See immune and digestive sections above for specific recommendations."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -180,6 +185,7 @@ function EczemaPage() {
           title="Supplements"
           content="Nutrients that may help include Artichoke Extract, Mg, Zn, or B6."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -206,6 +212,7 @@ function ColdSoresPage() {
           title="Supplements"
           content="Nutrients that may help include Ca."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -232,6 +239,7 @@ function CankerSoresPage() {
           title="Supplements"
           content="Ca, D3, and Good Fats."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -258,6 +266,7 @@ function MolesPage() {
           title="Supplements"
           content="Nutrients that may help include Immune System support."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>
@@ -284,6 +293,7 @@ function NailsPage() {
           title="Supplements"
           content="Biotin, Zinc, and other minerals important for keratin production."
           type="supplements"
+          link="https://www.dssorders.com/drtodd"
         />
       </div>
     </div>

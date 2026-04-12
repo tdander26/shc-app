@@ -32,6 +32,7 @@ export default function SerotoninPage() {
           title="Supplements"
           type="supplements"
           content={'MethylB12, 5MTHF, P5P, Zn, Mg. Consider anemia: lack of iron or other red blood cell nutrients (a complete blood count "CBC" lab test would screen for this). Also, the herb St. John\'s wort can be very beneficial for improved serotonin health. However, please be aware if you are also taking a MAOI medication such as Marplan or Nardil as a condition called "serotonin syndrome" can occur (headaches, confusion, cardiovascular and digestive problems).'}
+          link="https://www.dssorders.com/drtodd"
         />
 
         <div className="space-y-2 mt-6">
