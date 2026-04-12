@@ -1,4 +1,4 @@
-import { NavigationBar } from './NavigationBar'
+import { BottomNav } from './BottomNav'
 import { useScrollToTop } from '../hooks/useScrollToTop'
 
 export function Layout({ children }) {
@@ -17,7 +17,7 @@ export function Layout({ children }) {
       </div>
 
       {/* Fixed bottom navigation */}
-      <NavigationBar />
+      <BottomNav />
     </div>
   )
 }

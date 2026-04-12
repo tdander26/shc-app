@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { BackButton } from '../../../components/BackButton'
 import { SectionHeader } from '../../../components/SectionHeader'
+import { ProgressBar } from '../../../components/ProgressBar'
 
 export default function MoodQ5() {
   const navigate = useNavigate()
@@ -10,6 +11,8 @@ export default function MoodQ5() {
       <div className="mb-4">
         <BackButton />
       </div>
+
+      <ProgressBar current={5} total={7} />
 
       <SectionHeader title="Mood & Emotional Health" emoji="😊" />
 

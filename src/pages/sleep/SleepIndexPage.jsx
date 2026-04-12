@@ -33,6 +33,7 @@ function SleepIntroPage() {
       <SectionHeader
         title="Problems with Sleep"
         iconSrc="/icons/sleep-icon.png"
+        accentColor="#6366F1"
       />
 
       <div className="space-y-4 mb-6">

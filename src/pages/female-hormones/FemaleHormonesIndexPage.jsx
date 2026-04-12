@@ -11,6 +11,7 @@ function FemaleHormonesIntro() {
         title="Female Hormones"
         iconSrc="/icons/female-hormones-icon.png"
         subtitle="Supporting hormonal balance for women"
+        accentColor="#F43F5E"
       />
 
       <div className="space-y-4 mb-6">

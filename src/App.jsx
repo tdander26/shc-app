@@ -43,46 +43,48 @@ function AppContent() {
 
   return (
     <Layout>
-      <Routes>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/disclaimer" element={<DisclaimerPage />} />
+      <div key={location.pathname} className="page-enter-active">
+        <Routes>
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/disclaimer" element={<DisclaimerPage />} />
 
-        {/* Fatigue section */}
-        <Route path="/fatigue/*" element={<FatigueIndexPage />} />
+          {/* Fatigue section */}
+          <Route path="/fatigue/*" element={<FatigueIndexPage />} />
 
-        {/* Sleep section */}
-        <Route path="/sleep/*" element={<SleepIndexPage />} />
+          {/* Sleep section */}
+          <Route path="/sleep/*" element={<SleepIndexPage />} />
 
-        {/* Mood section */}
-        <Route path="/mood/*" element={<MoodIndexPage />} />
+          {/* Mood section */}
+          <Route path="/mood/*" element={<MoodIndexPage />} />
 
-        {/* Skin section */}
-        <Route path="/skin/*" element={<SkinIndexPage />} />
+          {/* Skin section */}
+          <Route path="/skin/*" element={<SkinIndexPage />} />
 
-        {/* Head Pain section */}
-        <Route path="/headaches/*" element={<HeadachesIndexPage />} />
+          {/* Head Pain section */}
+          <Route path="/headaches/*" element={<HeadachesIndexPage />} />
 
-        {/* Body Pain section */}
-        <Route path="/body-pain/*" element={<BodyPainIndexPage />} />
+          {/* Body Pain section */}
+          <Route path="/body-pain/*" element={<BodyPainIndexPage />} />
 
-        {/* Male Hormones section */}
-        <Route path="/male-hormones/*" element={<MaleHormonesIndexPage />} />
+          {/* Male Hormones section */}
+          <Route path="/male-hormones/*" element={<MaleHormonesIndexPage />} />
 
-        {/* Female Hormones section */}
-        <Route path="/female-hormones/*" element={<FemaleHormonesIndexPage />} />
+          {/* Female Hormones section */}
+          <Route path="/female-hormones/*" element={<FemaleHormonesIndexPage />} />
 
-        {/* Digestion section */}
-        <Route path="/digestion/*" element={<DigestionIndexPage />} />
+          {/* Digestion section */}
+          <Route path="/digestion/*" element={<DigestionIndexPage />} />
 
-        {/* Immune section */}
-        <Route path="/immune/*" element={<ImmuneIndexPage />} />
+          {/* Immune section */}
+          <Route path="/immune/*" element={<ImmuneIndexPage />} />
 
-        {/* Shared landing page route */}
-        <Route path="/landing/:pageId" element={<LandingPage />} />
+          {/* Shared landing page route */}
+          <Route path="/landing/:pageId" element={<LandingPage />} />
 
-        {/* Catch-all 404 route */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+          {/* Catch-all 404 route */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
     </Layout>
   )
 }

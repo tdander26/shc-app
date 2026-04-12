@@ -23,6 +23,7 @@ function MoodIntro() {
       <SectionHeader
         title="Mood & Emotional Health"
         iconSrc="/icons/mood-icon.png"
+        accentColor="#8B5CF6"
       />
 
       <div className="space-y-4">

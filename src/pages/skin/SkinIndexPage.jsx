@@ -11,6 +11,7 @@ function SkinIndexIntro() {
         title="Skin"
         iconSrc="/icons/skin-icon.png"
         subtitle="Achieving healthy, clear skin"
+        accentColor="#EC4899"
       />
 
       <div className="space-y-4 mb-6">

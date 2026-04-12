@@ -13,6 +13,7 @@ function MaleHormonesIntro() {
         title="Male Hormones"
         iconSrc="/icons/male-hormones-icon.png"
         subtitle="Supporting hormonal balance"
+        accentColor="#3B82F6"
       />
 
       <div className="space-y-4 mb-6">

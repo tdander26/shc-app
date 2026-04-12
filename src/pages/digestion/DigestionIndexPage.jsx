@@ -11,6 +11,7 @@ function DigestionIndexIntro() {
         title="Digestion"
         iconSrc="/icons/digestion-icon.png"
         subtitle="Supporting digestive health"
+        accentColor="#10B981"
       />
 
       <div className="space-y-4 mb-6">

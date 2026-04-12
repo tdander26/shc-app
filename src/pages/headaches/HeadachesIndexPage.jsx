@@ -11,6 +11,7 @@ function HeadachesIndexIntro() {
         title="Head Pain"
         iconSrc="/icons/head-pain-icon.svg"
         subtitle="Managing headaches and migraines"
+        accentColor="#EF4444"
       />
 
       <div className="space-y-4 mb-6">

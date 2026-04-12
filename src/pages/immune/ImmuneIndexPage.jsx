@@ -9,6 +9,7 @@ export default function ImmuneIndexPage() {
         title="Immune System"
         iconSrc="/icons/immune-icon.png"
         subtitle="Strengthening immune function"
+        accentColor="#14B8A6"
       />
 
       <div className="space-y-4 mb-6">

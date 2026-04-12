@@ -70,6 +70,42 @@ body {
   }
 }
 
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Button tap glow effect */
+@keyframes buttonGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 176, 60, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 176, 60, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 176, 60, 0);
+  }
+}
+
+/* Ripple effect */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
 .fade-in {
   animation: fadeIn 0.3s ease-in-out;
 }
@@ -78,12 +114,27 @@ body {
   animation: slideUp 0.4s ease-out;
 }
 
+.page-enter {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
 /* Button base styles */
 @layer components {
   .btn-primary {
     @apply px-4 py-3 rounded-shc font-medium transition-all duration-200 ease-out;
     @apply bg-shc-green text-black hover:bg-shc-green-hover active:scale-95;
     @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary:active {
+    animation: buttonGlow 0.6s ease-out;
   }
 
   .btn-secondary {
@@ -97,7 +148,32 @@ body {
   }
 
   .card-hover {
-    @apply hover:border-shc-green hover:shadow-lg;
+    @apply hover:border-shc-green hover:shadow-lg hover:shadow-shc-green/20;
+    transform: translateY(0);
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-2px);
+  }
+
+  .ripple {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ripple::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .ripple:active::after {
+    animation: ripple 0.6s ease-out;
   }
 
   .text-shc {

@@ -11,6 +11,7 @@ function BodyPainIndexIntro() {
         title="Body Pain"
         iconSrc="/icons/body-pain-icon.png"
         subtitle="Addressing and relieving body pain"
+        accentColor="#F97316"
       />
 
       <div className="space-y-4 mb-6">

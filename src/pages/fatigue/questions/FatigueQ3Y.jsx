@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { BackButton } from '../../../components/BackButton'
 import { SectionHeader } from '../../../components/SectionHeader'
+import { ProgressBar } from '../../../components/ProgressBar'
 
 export default function FatigueQ3Y() {
   const navigate = useNavigate()
@@ -33,6 +34,8 @@ export default function FatigueQ3Y() {
       <div className="mb-4">
         <BackButton />
       </div>
+
+      <ProgressBar current={3} total={9} />
 
       <SectionHeader title="Fatigue" emoji="🔋" />
 

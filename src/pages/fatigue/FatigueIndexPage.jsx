@@ -26,6 +26,7 @@ function FatigueIntro() {
       <SectionHeader
         title="Fatigue"
         iconSrc="/icons/fatigue-icon.png"
+        accentColor="#F59E0B"
       />
 
       <div className="space-y-4">
