@@ -22,7 +22,6 @@ function MoodIntro() {
     <div>
       <SectionHeader
         title="Mood & Emotional Health"
-        emoji="😊"
       />
 
       <div className="space-y-4">
@@ -34,9 +33,10 @@ function MoodIntro() {
 
         <button
           onClick={() => navigate('/mood/q1')}
-          className="w-full px-4 py-3 rounded-shc bg-shc-green text-black font-semibold hover:bg-shc-green-hover active:scale-95 transition-all duration-200"
+          className="w-full px-4 py-3 rounded-shc bg-shc-green text-black font-semibold hover:bg-shc-green-hover active:scale-95 transition-all duration-200 flex items-center justify-center gap-2"
         >
-          Click to Begin
+          Begin Assessment
+          <span className="text-lg">→</span>
         </button>
       </div>
     </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BackButton } from '../../../components/BackButton'
 import { SectionHeader } from '../../../components/SectionHeader'
+import { AnswerButtons } from '../../../components/AnswerButton'
 
 export default function FatigueQ5() {
   const navigate = useNavigate()
@@ -69,21 +70,12 @@ export default function FatigueQ5() {
           Selected: {countChecked} / 6
         </div>
 
-        <div className="space-y-2">
-          <button
-            onClick={handleYes}
-            disabled={countChecked < 2}
-            className="w-full px-4 py-3 rounded-shc bg-shc-green text-black font-semibold hover:bg-shc-green-hover active:scale-95 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed text-left"
-          >
-            Yes ({countChecked}+)
-          </button>
-          <button
-            onClick={handleNo}
-            className="w-full px-4 py-3 rounded-shc bg-shc-card border border-shc-border text-shc-text font-semibold hover:bg-shc-bg hover:border-shc-green active:scale-95 transition-all duration-200 text-left"
-          >
-            No (Less than 2)
-          </button>
-        </div>
+        <AnswerButtons
+          options={[
+            { label: `Yes (${countChecked}+)`, onClick: handleYes, disabled: countChecked < 2 },
+            { label: 'No (Less than 2)', onClick: handleNo }
+          ]}
+        />
       </div>
     </div>
   )

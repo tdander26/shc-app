@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { BackButton } from '../../../components/BackButton'
 import { SectionHeader } from '../../../components/SectionHeader'
+import { AnswerButtons } from '../../../components/AnswerButton'
 
 export default function FatigueQ4Y() {
   const navigate = useNavigate()
@@ -18,20 +19,12 @@ export default function FatigueQ4Y() {
           Do these changes occur after eating?
         </h2>
 
-        <div className="space-y-2">
-          <button
-            onClick={() => navigate('/landing/allergy')}
-            className="w-full px-4 py-3 rounded-shc bg-shc-green text-black font-semibold hover:bg-shc-green-hover active:scale-95 transition-all duration-200 text-left"
-          >
-            Yes
-          </button>
-          <button
-            onClick={() => navigate('/fatigue/q5')}
-            className="w-full px-4 py-3 rounded-shc bg-shc-card border border-shc-border text-shc-text font-semibold hover:bg-shc-bg hover:border-shc-green active:scale-95 transition-all duration-200 text-left"
-          >
-            No
-          </button>
-        </div>
+        <AnswerButtons
+          options={[
+            { label: 'Yes', onClick: () => navigate('/landing/allergy') },
+            { label: 'No', onClick: () => navigate('/fatigue/q5') }
+          ]}
+        />
       </div>
     </div>
   )

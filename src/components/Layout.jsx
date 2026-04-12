@@ -10,7 +10,7 @@ export function Layout({ children }) {
       <div className="pt-safe-top pb-safe-bottom">
         {/* Phone-like container centered on desktop */}
         <div className="max-w-md mx-auto min-h-screen bg-shc-bg">
-          <main className="px-4 py-6 pb-24 fade-in">
+          <main className="px-4 py-6 pb-32 animate-fade-in">
             {children}
           </main>
         </div>
