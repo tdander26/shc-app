@@ -81,7 +81,7 @@ export default function SplashScreen() {
 
       {/* App title */}
       <h1
-        className="text-4xl font-bold mt-6"
+        className="text-3xl font-bold mt-6 text-center px-4"
         style={{
           color: '#FFFFFF',
           letterSpacing: '0.05em',
@@ -90,7 +90,7 @@ export default function SplashScreen() {
           transform: phase !== 'enter' ? 'translateY(0)' : 'translateY(12px)',
         }}
       >
-        SHC
+        Symptoms Solution
       </h1>
 
       {/* Subtitle */}
@@ -105,7 +105,7 @@ export default function SplashScreen() {
           transform: phase !== 'enter' ? 'translateY(0)' : 'translateY(12px)',
         }}
       >
-        Symptom-Based Health Coaching
+        Your guide to symptom-based health
       </p>
 
       {/* Tagline */}
@@ -121,7 +121,7 @@ export default function SplashScreen() {
         Your health, your way
       </p>
 
-      {/* Bottom attribution */}
+      {/* Bottom tagline */}
       <p
         className="absolute bottom-8 text-xs"
         style={{
@@ -130,7 +130,7 @@ export default function SplashScreen() {
           opacity: phase !== 'enter' ? 1 : 0,
         }}
       >
-        Dr. Todd Anderson
+        Health starts with understanding
       </p>
     </div>
   )

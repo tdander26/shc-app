@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { BackButton } from './BackButton'
 
 const sectionTitles = {
-  '/home': 'SHC App',
+  '/home': 'Symptoms Solution',
   '/disclaimer': 'Disclaimer',
   '/fatigue': 'Fatigue',
   '/sleep': 'Sleep',
@@ -18,7 +18,7 @@ const sectionTitles = {
 
 function getSectionTitle(pathname) {
   const rootPath = pathname.split('/')[1]
-  if (rootPath === '' || rootPath === 'home') return 'SHC App'
+  if (rootPath === '' || rootPath === 'home') return 'Symptoms Solution'
 
   for (const [path, title] of Object.entries(sectionTitles)) {
     if (pathname === path || pathname.startsWith(path + '/')) {
@@ -26,7 +26,7 @@ function getSectionTitle(pathname) {
     }
   }
 
-  return 'SHC App'
+  return 'Symptoms Solution'
 }
 
 export function NavigationBar() {
