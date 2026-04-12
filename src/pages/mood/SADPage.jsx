@@ -18,7 +18,7 @@ export default function SADPage() {
         <ContentBlock
           title="Overview"
           type="overview"
-          content="This condition is very common due to shorted hours of daylight resulting in an imbalance of our circadian rhythm, our \"body clock.\" For some people, it is also the lack of vitamin D, which we make from the sun's UVB rays."
+          content={'This condition is very common due to shorted hours of daylight resulting in an imbalance of our circadian rhythm, our "body clock." For some people, it is also the lack of vitamin D, which we make from the sun\'s UVB rays.'}
         />
 
         <ContentBlock

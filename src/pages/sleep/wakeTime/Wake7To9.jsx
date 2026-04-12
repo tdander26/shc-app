@@ -27,7 +27,7 @@ export default function Wake7To9() {
 
       <MenuButton
         title="Home"
-        to="/"
+        to="/home"
       />
     </div>
   )

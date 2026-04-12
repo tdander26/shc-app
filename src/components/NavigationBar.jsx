@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { BackButton } from './BackButton'
 
 const sectionTitles = {
-  '/': 'SHC App',
+  '/home': 'SHC App',
   '/disclaimer': 'Disclaimer',
   '/fatigue': 'Fatigue',
   '/sleep': 'Sleep',
@@ -18,7 +18,7 @@ const sectionTitles = {
 
 function getSectionTitle(pathname) {
   const rootPath = pathname.split('/')[1]
-  if (rootPath === '') return 'SHC App'
+  if (rootPath === '' || rootPath === 'home') return 'SHC App'
 
   for (const [path, title] of Object.entries(sectionTitles)) {
     if (pathname === path || pathname.startsWith(path + '/')) {
@@ -32,7 +32,7 @@ function getSectionTitle(pathname) {
 export function NavigationBar() {
   const location = useLocation()
   const navigate = useNavigate()
-  const isHome = location.pathname === '/'
+  const isHome = location.pathname === '/home'
   const title = getSectionTitle(location.pathname)
 
   return (
@@ -43,7 +43,7 @@ export function NavigationBar() {
           <h2 className="text-sm font-semibold text-shc-text truncate">{title}</h2>
         </div>
         <button
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/home')}
           className={`p-2 rounded-shc transition-all duration-200 ${
             isHome
               ? 'bg-shc-green text-black'

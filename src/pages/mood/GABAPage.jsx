@@ -25,7 +25,7 @@ export default function GABAPage() {
         <ContentBlock
           title="Lifestyle"
           type="lifestyle"
-          content="It's very important to stay away from the excitatory amino acids and their chemical derivatives as they will override your inhibitory GABA levels. These two substances are glutamates, commonly found as MSG (monosodium glutamate), asparates, commonly known as NutraSweet, commonly found in diet drinks and foods (and that blue packet Equal). MSG is also hidden under the names \"hydrolyzed\" and \"autolyzed\", so be sure to read ingredients. Check out the other health tips in the Sleep section as without sufficient GABA levels, you won't sleep well. Breathe! Learn healthy breathing tips to naturally calm down your nervous system."
+          content={'It\'s very important to stay away from the excitatory amino acids and their chemical derivatives as they will override your inhibitory GABA levels. These two substances are glutamates, commonly found as MSG (monosodium glutamate), asparates, commonly known as NutraSweet, commonly found in diet drinks and foods (and that blue packet Equal). MSG is also hidden under the names "hydrolyzed" and "autolyzed", so be sure to read ingredients. Check out the other health tips in the Sleep section as without sufficient GABA levels, you won\'t sleep well. Breathe! Learn healthy breathing tips to naturally calm down your nervous system.'}
         />
 
         <ContentBlock

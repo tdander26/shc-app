@@ -19,7 +19,7 @@ export default function SerotoninPage() {
         <ContentBlock
           title="Overview"
           type="overview"
-          content="Feelings of depression affect a vast amount of people throughout the world and is a leading cause of disability. Therefore, a multitude of medications are available to \"treat\" this condition which is most often due in some part to an imbalance of the neurotransmitter serotonin. Paxil, Zoloft, Prozac, and Lexapro are just some of the many \"go-to\" medications people take to alter their serotonin levels. These medications don't make more of the neurotransmitter, but help to keep more of it available for your body to use longer."
+          content={'Feelings of depression affect a vast amount of people throughout the world and is a leading cause of disability. Therefore, a multitude of medications are available to "treat" this condition which is most often due in some part to an imbalance of the neurotransmitter serotonin. Paxil, Zoloft, Prozac, and Lexapro are just some of the many "go-to" medications people take to alter their serotonin levels. These medications don\'t make more of the neurotransmitter, but help to keep more of it available for your body to use longer.'}
         />
 
         <ContentBlock
@@ -31,7 +31,7 @@ export default function SerotoninPage() {
         <ContentBlock
           title="Supplements"
           type="supplements"
-          content="MethylB12, 5MTHF, P5P, Zn, Mg. Consider anemia: lack of iron or other red blood cell nutrients (a complete blood count \"CBC\" lab test would screen for this). Also, the herb St. John's wort can be very beneficial for improved serotonin health. However, please be aware if you are also taking a MAOI medication such as Marplan or Nardil as a condition called \"serotonin syndrome\" can occur (headaches, confusion, cardiovascular and digestive problems)."
+          content={'MethylB12, 5MTHF, P5P, Zn, Mg. Consider anemia: lack of iron or other red blood cell nutrients (a complete blood count "CBC" lab test would screen for this). Also, the herb St. John\'s wort can be very beneficial for improved serotonin health. However, please be aware if you are also taking a MAOI medication such as Marplan or Nardil as a condition called "serotonin syndrome" can occur (headaches, confusion, cardiovascular and digestive problems).'}
         />
 
         <div className="space-y-2 mt-6">

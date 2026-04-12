@@ -23,7 +23,7 @@ export default function MoodEndPage() {
 
         <MenuButton
           title="Home"
-          to="/"
+          to="/home"
         />
       </div>
     </div>

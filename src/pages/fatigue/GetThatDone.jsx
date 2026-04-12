@@ -23,7 +23,7 @@ export default function GetThatDone() {
         </p>
 
         <button
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/home')}
           className="w-full px-4 py-3 rounded-shc bg-shc-green text-black font-semibold hover:bg-shc-green-hover active:scale-95 transition-all duration-200"
         >
           Back Home
