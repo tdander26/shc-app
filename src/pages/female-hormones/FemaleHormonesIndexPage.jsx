@@ -158,9 +158,12 @@ function CrampingPage() {
         />
         <ContentBlock
           title="Supplements"
-          content="Vitamin E. Plus nutrients dependent upon inflammation or calcium above."
+          content="Cataplex E (Vitamin E). Plus nutrients dependent upon inflammation or calcium metabolism above."
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-e2', label: 'Cataplex E' }
+          ]}
         />
       </div>
       <div className="space-y-3">
@@ -221,9 +224,13 @@ function HotFlashPage() {
         />
         <ContentBlock
           title="Supplements"
-          content="Nutrients that may help include Organically Bound Minerals, Vitamin E, Vitamin B6, Vitamin B9, Vitamin B12, Cysteine, Artichoke."
+          content="Nutrients that may help include Organically Bound Minerals, Cataplex E (Vitamin E), Vitamin B6, Vitamin B9, Vitamin B12, Cysteine, Artichoke."
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/organically-bound-minerals', label: 'Organic Minerals' },
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-e2', label: 'Cataplex E' }
+          ]}
         />
       </div>
       <MenuButton title="Liver Detoxification" to="/liver-view" />
@@ -277,9 +284,12 @@ function FatigueFemalePage() {
         />
         <ContentBlock
           title="Supplements"
-          content="Nutrients that may help include RBCs: Iron, Vitamin B12, Vitamin B9, Vitamin B6. If no change after 2 cycles consider copper and molybdenum."
+          content="For red blood cell support: Ferrafood (Iron), Vitamin B12, Folate, Vitamin B6. If no change after 2 cycles consider copper and molybdenum."
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/ferrafood', label: 'Ferrafood' }
+          ]}
         />
       </div>
     </div>
@@ -329,6 +339,10 @@ function LongCyclePage() {
           content="Min Tran, Vitamin E, Tulsi, Ashwagandha, Cat B"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/min-tran', label: 'Min Tran' },
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-b', label: 'Cataplex B' }
+          ]}
         />
       </div>
       <MenuButton title="Sympathetic" to="/sympathetic-view" />
@@ -412,6 +426,11 @@ function NoCyclePage() {
           content="Pituitary PMG, Ovex P, Ashwagandha, Tulsi, Iodine, Cat E"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/pituitary-pmg', label: 'Pituitary PMG' },
+            { url: 'https://drgangemi.standardprocess.com/products/ovex-p', label: 'Ovex P' },
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-e2', label: 'Cataplex E' }
+          ]}
         />
       </div>
       <MenuButton title="Fertility Section" to="/female-hormones/fertility" />
@@ -440,6 +459,9 @@ function DecreasedLibidoFemale() {
           content="Vitamin E, Zinc, Arginex"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/arginex', label: 'Arginex' }
+          ]}
         />
       </div>
       <div className="space-y-3">
@@ -487,6 +509,10 @@ function TroubleGettingPage() {
           content="Nutrients that may help include Pituitary PMG, Ovex P, Ashwagandha, Tulsi, Iodine, Vitamin E."
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/pituitary-pmg', label: 'Pituitary PMG' },
+            { url: 'https://drgangemi.standardprocess.com/products/ovex-p', label: 'Ovex P' }
+          ]}
         />
       </div>
       <div className="space-y-3">

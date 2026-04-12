@@ -33,6 +33,9 @@ export default function ConcentrationPage() {
           type="supplements"
           content="Cat G, Wheat Germ Oil, Mn, B12"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-g', label: 'Cataplex G' }
+          ]}
         />
 
         <div className="space-y-2 mt-6">

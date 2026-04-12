@@ -34,6 +34,12 @@ export default function SleepStressPage() {
           content={supplements}
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-b', label: 'Cataplex B' },
+            { url: 'https://drgangemi.standardprocess.com/products/organically-bound-minerals', label: 'Organic Minerals' },
+            { url: 'https://drgangemi.standardprocess.com/products/phosfood-liquid', label: 'Phosfood' },
+            { url: 'https://drgangemi.standardprocess.com/products/cyruta-plus', label: 'Cyruta Plus' }
+          ]}
         />
       </div>
 

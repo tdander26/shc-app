@@ -1,28 +1,26 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 export default function SplashScreen() {
   const navigate = useNavigate()
   const [phase, setPhase] = useState('enter') // enter, visible, exit
+  const [accepted, setAccepted] = useState(false)
 
-  useEffect(() => {
-    // Phase 1: elements animate in
-    const visibleTimer = setTimeout(() => setPhase('visible'), 100)
-    // Phase 2: hold for a moment, then fade out
-    const exitTimer = setTimeout(() => setPhase('exit'), 2800)
-    // Phase 3: navigate to home
-    const navTimer = setTimeout(() => navigate('/home', { replace: true }), 3500)
+  // Animate in on mount
+  useState(() => {
+    const timer = setTimeout(() => setPhase('visible'), 100)
+    return () => clearTimeout(timer)
+  })
 
-    return () => {
-      clearTimeout(visibleTimer)
-      clearTimeout(exitTimer)
-      clearTimeout(navTimer)
-    }
-  }, [navigate])
+  const handleAccept = () => {
+    setAccepted(true)
+    setPhase('exit')
+    setTimeout(() => navigate('/home', { replace: true }), 600)
+  }
 
   return (
     <div
-      className="fixed inset-0 flex flex-col items-center justify-center"
+      className="fixed inset-0 flex flex-col items-center justify-center px-6"
       style={{
         background: 'linear-gradient(180deg, #1a1a1c 0%, #212122 40%, #1a2e1f 100%)',
         transition: 'opacity 0.7s ease',
@@ -81,7 +79,7 @@ export default function SplashScreen() {
 
       {/* App title */}
       <h1
-        className="text-3xl font-bold mt-6 text-center px-4"
+        className="text-3xl font-bold mt-6 text-center"
         style={{
           color: '#FFFFFF',
           letterSpacing: '0.05em',
@@ -108,33 +106,50 @@ export default function SplashScreen() {
         Your guide to symptom-based health
       </p>
 
-      {/* Tagline */}
-      <p
-        className="text-xs mt-6"
+      {/* Disclaimer box + accept button */}
+      <div
+        className="mt-8 w-full"
         style={{
-          color: '#00B03C',
-          fontWeight: 500,
-          transition: 'opacity 0.8s ease 0.8s',
-          opacity: phase !== 'enter' ? 0.8 : 0,
-        }}
-      >
-        Your health, your way
-      </p>
-
-      {/* Disclaimer */}
-      <p
-        className="absolute bottom-12 text-center px-8"
-        style={{
-          color: 'rgba(156,163,175,0.45)',
-          fontSize: '0.6rem',
-          lineHeight: '1.4',
-          maxWidth: 340,
-          transition: 'opacity 0.8s ease 1s',
+          maxWidth: 380,
+          transition: 'opacity 0.8s ease 0.7s, transform 0.8s ease 0.7s',
           opacity: phase !== 'enter' ? 1 : 0,
+          transform: phase !== 'enter' ? 'translateY(0)' : 'translateY(16px)',
         }}
       >
-        This app is intended to help individuals become better informed consumers of health care. The information presented gives general advice and is not intended to treat, diagnose, prescribe, or replace any health care visit. Consult your qualified health care professional.
-      </p>
+        <div
+          className="rounded-xl p-4 mb-4"
+          style={{
+            background: 'rgba(255,255,255,0.05)',
+            border: '1px solid rgba(255,255,255,0.1)',
+          }}
+        >
+          <p
+            className="text-center leading-relaxed"
+            style={{
+              color: 'rgba(156,163,175,0.8)',
+              fontSize: '0.7rem',
+            }}
+          >
+            This app is intended to help individuals become better informed consumers of health care. The information presented gives general advice on health care and fitness and is not intended to treat, diagnose, prescribe, or replace any health care visit. The contents are based upon the opinions of Stephen C. Gangemi, DC. We encourage you to make your own health care decisions based upon your research along with your qualified health care professional. Nothing contained in this app is a substitute for your current, hopefully qualified, physician.
+          </p>
+        </div>
+
+        <button
+          onClick={handleAccept}
+          disabled={accepted}
+          className="w-full py-3.5 rounded-xl font-semibold text-sm tracking-wide active:scale-95 transition-all duration-200"
+          style={{
+            background: accepted
+              ? 'rgba(0,176,60,0.3)'
+              : 'linear-gradient(135deg, #00B03C 0%, #00CC45 100%)',
+            color: accepted ? 'rgba(0,0,0,0.5)' : '#000',
+            boxShadow: accepted ? 'none' : '0 4px 20px rgba(0,176,60,0.3)',
+            cursor: accepted ? 'default' : 'pointer',
+          }}
+        >
+          {accepted ? 'Entering...' : 'I Understand — Continue'}
+        </button>
+      </div>
     </div>
   )
 }

@@ -261,6 +261,9 @@ function TartarPage() {
           content="Nutrients that may help include Phosfood Liquid or Trace Minerals"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/phosfood-liquid', label: 'Phosfood' }
+          ]}
         />
       </div>
     </div>
@@ -315,6 +318,10 @@ function BleedingGumsPage() {
           content="Cyruta Plus, Cat C"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/cyruta-plus', label: 'Cyruta Plus' },
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-c', label: 'Cataplex C' }
+          ]}
         />
       </div>
     </div>

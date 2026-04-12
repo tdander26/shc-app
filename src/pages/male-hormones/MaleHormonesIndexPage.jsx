@@ -77,6 +77,9 @@ function DecreasedLibidoPage() {
           content="Nutrients that may help include Vitamin E, Zinc, Arginex."
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/arginex', label: 'Arginex' }
+          ]}
         />
       </div>
 
@@ -224,6 +227,17 @@ function ProstateHealthPage() {
           content="Lifestyle and nutritional changes can greatly improve your prostate health. Though these DO NOT substitute for medical intervention when necessary, they can even help with prostate cancers and prostate symptoms that many men still have after a prostate removal surgery. Your pelvic diaphragm is the area around your pelvis that should move in sync with your main (breathing) diaphragm. When these diaphragms are out of sync, problems can arise. Therefore, improving your breathing can improve your pelvic diaphragm and greatly improve prostate issues you may be experiencing. Of course, it is advised you discuss all natural treatments with your medical doctor."
           type="lifestyle"
         />
+
+        <ContentBlock
+          title="Supplements"
+          content="Prost X, Prostate PMG, Cataplex E, Selenium, Saw Palmetto, Zinc, Vitamin D."
+          type="supplements"
+          link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/prost-x', label: 'Prost X' },
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-e2', label: 'Cataplex E' }
+          ]}
+        />
       </div>
 
       <div className="space-y-3">
@@ -262,6 +276,10 @@ function NitricOxidePage() {
           content="To improve nitric oxide levels try: ARG/ORT/CIT aminos, arginex, 5MTHF, Cat G, niacinamide, P5P"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/arginex', label: 'Arginex' },
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-g', label: 'Cataplex G' }
+          ]}
         />
       </div>
 

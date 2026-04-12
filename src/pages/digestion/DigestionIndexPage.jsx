@@ -50,9 +50,13 @@ function HCLPage() {
         />
         <ContentBlock
           title="Supplements"
-          content="EPA, DHA, palmitic acid, stearic acid, vitamin D, Betaine HCl, and many others listed in the supplementation resources."
+          content="EPA, DHA, palmitic acid, stearic acid, vitamin D, Betaine HCl. For gallbladder and constipation: Cholacol (bile salts) and Betafood (betaine to thin bile)."
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/cholacol', label: 'Cholacol' },
+            { url: 'https://drgangemi.standardprocess.com/products/betafood', label: 'Betafood' }
+          ]}
         />
       </div>
     </div>

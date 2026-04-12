@@ -140,6 +140,9 @@ function HivesPage() {
           content="Cataplex G, Immune Nutrients, and SYM Nutrients"
           type="supplements"
           link="https://www.dssorders.com/drtodd"
+          links={[
+            { url: 'https://drgangemi.standardprocess.com/products/cataplex-g', label: 'Cataplex G' }
+          ]}
         />
       </div>
     </div>
