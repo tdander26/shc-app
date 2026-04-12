@@ -1,0 +1,41 @@
+export default {
+  content: [
+    './index.html',
+    './src/**/*.{js,jsx}'
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'shc-bg': '#212122',
+        'shc-card': '#1B1B1D',
+        'shc-green': '#00B03C',
+        'shc-green-hover': '#00CC45',
+        'shc-text': '#FFFFFF',
+        'shc-muted': '#9CA3AF',
+        'shc-border': '#2D2D2F'
+      },
+      backgroundColor: {
+        'shc-bg': '#212122',
+        'shc-card': '#1B1B1D'
+      },
+      textColor: {
+        'shc-text': '#FFFFFF',
+        'shc-muted': '#9CA3AF'
+      },
+      borderColor: {
+        'shc-border': '#2D2D2F'
+      },
+      borderRadius: {
+        'shc': '12px',
+        'shc-lg': '16px'
+      },
+      spacing: {
+        'safe-top': 'max(1rem, env(safe-area-inset-top))',
+        'safe-bottom': 'max(5rem, env(safe-area-inset-bottom))',
+        'safe-left': 'max(1rem, env(safe-area-inset-left))',
+        'safe-right': 'max(1rem, env(safe-area-inset-right))'
+      }
+    }
+  },
+  plugins: []
+}

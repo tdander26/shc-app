@@ -1,0 +1,150 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --bg-primary: #212122;
+  --bg-secondary: #1B1B1D;
+  --color-green: #00B03C;
+  --color-green-hover: #00CC45;
+  --text-primary: #FFFFFF;
+  --text-muted: #9CA3AF;
+  --border-color: #2D2D2F;
+  --color-blue: #3B82F6;
+  --color-amber: #F59E0B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-color: var(--border-color) var(--bg-primary);
+  scrollbar-width: thin;
+}
+
+/* Page transition animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* Button base styles */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-3 rounded-shc font-medium transition-all duration-200 ease-out;
+    @apply bg-shc-green text-black hover:bg-shc-green-hover active:scale-95;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-3 rounded-shc font-medium transition-all duration-200 ease-out;
+    @apply bg-shc-card border border-shc-border text-shc-text hover:bg-shc-bg active:scale-95;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .card {
+    @apply bg-shc-card rounded-shc border border-shc-border p-4 transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply hover:border-shc-green hover:shadow-lg;
+  }
+
+  .text-shc {
+    @apply text-shc-text;
+  }
+
+  .text-muted {
+    @apply text-shc-muted;
+  }
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Input styling */
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea,
+select {
+  @apply bg-shc-card border border-shc-border rounded-shc px-3 py-2 text-shc-text;
+  @apply focus:outline-none focus:border-shc-green focus:ring-1 focus:ring-shc-green;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--color-green);
+  color: #000000;
+}
+
+::-moz-selection {
+  background-color: var(--color-green);
+  color: #000000;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-green);
+  outline-offset: 2px;
+}
+
+/* Safe area support for notched devices */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
