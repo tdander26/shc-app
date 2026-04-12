@@ -11,7 +11,7 @@ function MaleHormonesIntro() {
     <div>
       <SectionHeader
         title="Male Hormones"
-        emoji="⚡"
+        iconSrc="/icons/male-hormones-icon.png"
         subtitle="Supporting hormonal balance"
       />
 

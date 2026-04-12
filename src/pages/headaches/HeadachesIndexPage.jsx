@@ -9,9 +9,17 @@ function HeadachesIndexIntro() {
     <div>
       <SectionHeader
         title="Head Pain"
-        emoji="🤕"
+        iconSrc="/icons/head-pain-icon.svg"
         subtitle="Managing headaches and migraines"
       />
+
+      <div className="space-y-4 mb-6">
+        <ContentBlock
+          title="Overview"
+          content="Headaches and migraines can stem from various sources including tension, blood sugar imbalance, hormonal issues, food sensitivities, and dehydration. Migraines tend to be more chemical or nutritional in nature, with poor hormonal detoxification being the most common reason. Tension headaches are basically from stress, causing tightness in the front and sides of the head. Sinus headaches are most commonly from a fungal infection in the sinus cavity. Understanding the type of headache you experience is the first step toward addressing it."
+          type="overview"
+        />
+      </div>
 
       <div className="space-y-3">
         <h3 className="text-lg font-semibold text-shc-text mb-3">Select a headache type:</h3>

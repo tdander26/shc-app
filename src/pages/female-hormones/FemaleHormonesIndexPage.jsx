@@ -9,7 +9,7 @@ function FemaleHormonesIntro() {
     <div>
       <SectionHeader
         title="Female Hormones"
-        emoji="👩"
+        iconSrc="/icons/female-hormones-icon.png"
         subtitle="Supporting hormonal balance for women"
       />
 

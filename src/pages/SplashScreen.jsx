@@ -121,16 +121,19 @@ export default function SplashScreen() {
         Your health, your way
       </p>
 
-      {/* Bottom tagline */}
+      {/* Disclaimer */}
       <p
-        className="absolute bottom-8 text-xs"
+        className="absolute bottom-12 text-center px-8"
         style={{
-          color: 'rgba(156,163,175,0.4)',
+          color: 'rgba(156,163,175,0.45)',
+          fontSize: '0.6rem',
+          lineHeight: '1.4',
+          maxWidth: 340,
           transition: 'opacity 0.8s ease 1s',
           opacity: phase !== 'enter' ? 1 : 0,
         }}
       >
-        Health starts with understanding
+        This app is intended to help individuals become better informed consumers of health care. The information presented gives general advice and is not intended to treat, diagnose, prescribe, or replace any health care visit. Consult your qualified health care professional.
       </p>
     </div>
   )

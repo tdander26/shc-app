@@ -9,9 +9,17 @@ function BodyPainIndexIntro() {
     <div>
       <SectionHeader
         title="Body Pain"
-        emoji="💪"
+        iconSrc="/icons/body-pain-icon.png"
         subtitle="Addressing and relieving body pain"
       />
+
+      <div className="space-y-4 mb-6">
+        <ContentBlock
+          title="Overview"
+          content="Body pain such as arthritis, bursitis, tendonitis, and joint issues are often the result of inflammation, nutrient deficiencies, or improper movement patterns. Many of these conditions are commonly managed with NSAIDs and other medications that merely mask symptoms. Understanding the root cause of your pain, whether it's dietary, hormonal, or structural, is key to finding lasting relief."
+          type="overview"
+        />
+      </div>
 
       <div className="space-y-3">
         <h3 className="text-lg font-semibold text-shc-text mb-3">Select a pain type:</h3>

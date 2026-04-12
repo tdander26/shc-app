@@ -32,13 +32,13 @@ function SleepIntroPage() {
       <BackButton />
       <SectionHeader
         title="Problems with Sleep"
-        emoji="🛌"
+        iconSrc="/icons/sleep-icon.png"
       />
 
       <div className="space-y-4 mb-6">
         <div className="card border-l-4 border-blue-500 bg-blue-500/10">
           <p className="text-shc-muted text-sm leading-relaxed whitespace-pre-line">
-            Sleep is important.
+            Sleep is perhaps the most neglected health habit, often taken for granted and sometimes even being touted as a weakness by those who work more and sleep less. Sleep is a time of body rejuvenation and recovery, and the lack of sleep quality and quantity can seriously impair your health both physically and mentally. If you are able to fall asleep within fifteen minutes, stay asleep throughout the night without waking, and wake up feeling rested and pain-free, then you probably don't need help from this section. But if you're like millions of people who don't sleep well but would like to, continue on.
           </p>
         </div>
       </div>

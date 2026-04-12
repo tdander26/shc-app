@@ -22,6 +22,7 @@ function MoodIntro() {
     <div>
       <SectionHeader
         title="Mood & Emotional Health"
+        iconSrc="/icons/mood-icon.png"
       />
 
       <div className="space-y-4">

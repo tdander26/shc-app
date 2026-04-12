@@ -7,14 +7,14 @@ export default function ImmuneIndexPage() {
     <div>
       <SectionHeader
         title="Immune System"
-        emoji="🛡️"
+        iconSrc="/icons/immune-icon.png"
         subtitle="Strengthening immune function"
       />
 
       <div className="space-y-4 mb-6">
         <ContentBlock
           title="Overview"
-          content="Your immune system is your body's defense against infections and disease. A healthy immune system depends on proper nutrition, stress management, sleep, and overall lifestyle choices. When your immune system is compromised, you become susceptible to various infections and illnesses. Supporting immune function is essential for long-term health."
+          content="Getting sick is typically an immune issue. The immune system is largely composed of the thymus, spleen, and lymph tissue, and half comprises the friendly bacteria that line the digestive tract. An increase in stress hormones, primarily cortisol from the adrenal glands, causes the immune system to function sub-optimally. Sugar is also a big detriment to immune system health. The health of the gut is very important since it is a major part of your immune system. A poor diet, especially one containing allergenic foods, in conjunction with unhealthy bacteria and fungus from past antibiotic therapies, will significantly decrease healthy bacteria."
           type="overview"
         />
 

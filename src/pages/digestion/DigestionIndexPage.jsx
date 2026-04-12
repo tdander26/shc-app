@@ -9,14 +9,14 @@ function DigestionIndexIntro() {
     <div>
       <SectionHeader
         title="Digestion"
-        emoji="🍽️"
+        iconSrc="/icons/digestion-icon.png"
         subtitle="Supporting digestive health"
       />
 
       <div className="space-y-4 mb-6">
         <ContentBlock
           title="Overview"
-          content="Healthy digestion is the foundation for overall health. Your digestive system breaks down food, absorbs nutrients, and eliminates waste. When digestion is compromised, it can lead to nutrient deficiencies and various health issues."
+          content="Healthy digestion is the foundation for overall health. Gassy and bloated? Often due to dysbiosis, an imbalance of gut microbes. Unhealthy bacteria, yeast, fungi, and parasites impair gut function. Constipation is usually due to slow gut motility from a poorly functioning gallbladder. Bile salts and betaine help thin out bile and improve motility. Your digestive system breaks down food, absorbs nutrients, and eliminates waste, and when compromised, it can lead to nutrient deficiencies and various health issues."
           type="overview"
         />
       </div>

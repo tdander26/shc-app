@@ -9,9 +9,17 @@ function SkinIndexIntro() {
     <div>
       <SectionHeader
         title="Skin"
-        emoji="🧴"
+        iconSrc="/icons/skin-icon.png"
         subtitle="Achieving healthy, clear skin"
       />
+
+      <div className="space-y-4 mb-6">
+        <ContentBlock
+          title="Overview"
+          content="Your skin is the largest of all your organs and it's a great reflection of your overall health, especially your liver, immune and hormonal systems, and digestive tract. A poor diet might result in eczema or acne and a nutrient deficiency can cause your lips to crack or your body to sweat too easily. Though there are endless cosmetic and skin care products available, they are truly treating the symptoms only, with rare exceptions. Learn what causes common skin problems and how to treat them at the source!"
+          type="overview"
+        />
+      </div>
 
       <div className="space-y-3">
         <h3 className="text-lg font-semibold text-shc-text mb-3">Select a skin condition:</h3>
