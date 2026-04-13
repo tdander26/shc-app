@@ -37,9 +37,14 @@ function NotFound() {
 function AppContent() {
   const location = useLocation()
   const isSplash = location.pathname === '/'
+  const isPrototype = location.pathname === '/prototype'
 
   if (isSplash) {
     return <SplashScreen />
+  }
+
+  if (isPrototype) {
+    return <PrototypePage />
   }
 
   return (
@@ -78,9 +83,6 @@ function AppContent() {
 
           {/* Immune section */}
           <Route path="/immune/*" element={<ImmuneIndexPage />} />
-
-          {/* Prototype display concepts */}
-          <Route path="/prototype" element={<PrototypePage />} />
 
           {/* Shared landing page route */}
           <Route path="/landing/:pageId" element={<LandingPage />} />
