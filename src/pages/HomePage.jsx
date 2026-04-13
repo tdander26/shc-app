@@ -32,6 +32,14 @@ export default function HomePage() {
         ))}
       </div>
 
+      <div className="mt-4 mb-3">
+        <MenuButton
+          title="Prototype Display Concepts"
+          to="/prototype"
+          icon="🧪"
+        />
+      </div>
+
       <MenuButton
         title="Disclaimer"
         to="/disclaimer"

@@ -15,6 +15,7 @@ import FemaleHormonesIndexPage from './pages/female-hormones/FemaleHormonesIndex
 import DigestionIndexPage from './pages/digestion/DigestionIndexPage'
 import ImmuneIndexPage from './pages/immune/ImmuneIndexPage'
 import LandingPage from './pages/LandingPage'
+import PrototypePage from './pages/PrototypePage'
 
 function NotFound() {
   const navigate = useNavigate()
@@ -77,6 +78,9 @@ function AppContent() {
 
           {/* Immune section */}
           <Route path="/immune/*" element={<ImmuneIndexPage />} />
+
+          {/* Prototype display concepts */}
+          <Route path="/prototype" element={<PrototypePage />} />
 
           {/* Shared landing page route */}
           <Route path="/landing/:pageId" element={<LandingPage />} />
